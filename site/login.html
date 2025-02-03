@@ -1,0 +1,109 @@
+<head>
+    <meta charset="utf-8">
+    <title>Pet Care - Aprende o que é melhor para o teu animal</title>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="" class="navbar-brand d-none d-lg-block">
+                    <h1 class="m-0 display-5 text-capitalize"><span class="text-primary">Pet</span>Care</h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                    <img width="20%" src="img/02 Cabeçalho-principal-ESVV-24-25.png" alt="Image" >
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <div class="col-lg-5">
+        <div class="bg-primary py-5 px-4 px-sm-5">
+            <form class="py-5">
+                <div class="form-group">
+                    <input type="text" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control border-0 p-4" placeholder="Your Email" required="required" />
+                </div>
+                <div class="form-group">
+                    <div class="date" id="date" data-target-input="nearest">
+                        <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Reservation Date" data-target="#date" data-toggle="datetimepicker"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="time" id="time" data-target-input="nearest">
+                        <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Reservation Time" data-target="#time" data-toggle="datetimepicker"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select class="custom-select border-0 px-4" style="height: 47px;">
+                        <option selected>Select A Service</option>
+                        <option value="1">Service 1</option>
+                        <option value="2">Service 1</option>
+                        <option value="3">Service 1</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-dark btn-block border-0 py-3" type="submit">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </div><div class="col-lg-5">
+    <div class="bg-primary py-5 px-4 px-sm-5">
+        <form class="py-5">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" class="form-control border-0 p-4" placeholder="Your Email" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="date">Reservation Date:</label>
+                <div class="date" id="date" data-target-input="nearest">
+                    <input type="text" id="date" class="form-control border-0 p-4 datetimepicker-input" placeholder="Reservation Date" data-target="#date" data-toggle="datetimepicker"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="time">Reservation Time:</label>
+                <div class="time" id="time" data-target-input="nearest">
+                    <input type="text" id="time" class="form-control border-0 p-4 datetimepicker-input" placeholder="Reservation Time" data-target="#time" data-toggle="datetimepicker"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="service">Select A Service:</label>
+                <select id="service" class="custom-select border-0 px-4" style="height: 47px;">
+                    <option selected>Select A Service</option>
+                    <option value="1">Service 1</option>
+                    <option value="2">Service 2</option>
+                    <option value="3">Service 3</option>
+                </select>
+            </div>
+            <div>
+                <button class="btn btn-dark btn-block border-0 py-3" type="submit">Book Now</button>
+            </div>
+        </form>
+    </div>
+</div>
