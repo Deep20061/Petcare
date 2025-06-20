@@ -1,0 +1,22 @@
+<!-- Modal HTML for animal deletion confirmation -->
+<div class="modal fade" id="deleteAnimalModal" tabindex="-1" aria-labelledby="deleteAnimalModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteAnimalModalLabel">Confirmar Eliminação</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Por favor, insira o motivo para eliminar o animal "<span id="modalAnimalName"></span>":</p>
+        <textarea id="modalDeleteReason" class="form-control" rows="3" placeholder="Motivo para eliminar o animal"></textarea>
+        <div class="invalid-feedback">
+          O motivo para eliminar o animal é obrigatório.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger" id="confirmDeleteAnimal">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
