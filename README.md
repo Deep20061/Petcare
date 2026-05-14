@@ -1,4 +1,2 @@
-# AluraFlix petcare.dev!
-Projeto para a pape
-
-Para executar por favor atualiza o ini.set
+# PETCARE!
+Este projeto foi desenvolvido no ambito do Projeto de aptidao profissional
